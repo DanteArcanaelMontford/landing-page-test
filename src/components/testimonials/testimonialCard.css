@@ -1,0 +1,35 @@
+
+.testimonial__container {
+  padding: 6rem;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial__card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+  background-color: #e5e9ee;
+  border-radius: 20px;
+  max-width: 300px;
+  height: 80%;
+  margin-bottom: 2rem;
+}
+
+.testimonial__profile-img {
+  padding: 1rem;
+}
+
+.testimonial__data {
+  display: flex;
+}
+
+.testimonial__info {
+  padding-top: 1rem;
+}
+
+.testimonial__description {
+  padding: 2rem 1.2rem 2rem 1.2rem;
+}

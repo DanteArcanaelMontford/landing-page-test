@@ -1,0 +1,81 @@
+.section__contact {
+  background-color: #d4d9de;
+  padding: 4rem 7rem 4rem 7rem;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+  justify-content: space-around;
+}
+
+.contact__btn {
+  width: 30%;
+  margin: auto;
+}
+
+.contact__btn button {
+  margin: auto;
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #f05c0a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact__btn button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact__titles {
+  color: var(--color-letter-1);
+}
+
+
+.contact__titles h3 {
+  font-size: 2rem;
+  max-width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact__titles h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  max-width: 90%;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .contact__container {
+    flex-direction: column;
+  }
+
+  .contact__btn {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+  .contact__titles h3 {
+    font-size: 1.4rem;
+  }
+
+  .contact__titles h5 {
+    font-size: 1rem;
+  }
+
+  .section__contact {
+    padding: 4rem 3rem 4rem 3rem;
+  }
+}

@@ -1,0 +1,17 @@
+.section__testimonials {
+  background-color: #fff;
+  /* padding: 2rem; */
+}
+
+.section__testimonials h3 {
+  font-size: var(--typography-size-2);
+  text-align: center;
+  color: var(--color-letter-1);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
+.swiper-slide {
+  width: 50% !important;
+}

@@ -1,0 +1,25 @@
+.home__footer {
+  padding: 2rem;
+  margin: auto;
+}
+
+.home__footer h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  color: var(--color-letter-1);
+}
+
+.swiper-slide {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .home__footer h3 {
+    font-size: 2rem;
+  }
+}
+
+
+
